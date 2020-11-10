@@ -1,0 +1,20 @@
+
+.register{
+    border-radius: 8px;
+    background: #f0f0f0;
+    box-shadow: 0 0 5px #acacac;
+    padding:3px 25px 25px 25px;
+    margin: 90px 0;
+}
+.center{
+    text-align: center;
+}
+
+.radiobtn{
+    margin: 41px 0;
+}
+label#upload_file {
+    background: #7e7e7e9e;
+    font-weight: bold;
+    margin: 10px 0;
+}

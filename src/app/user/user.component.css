@@ -1,0 +1,10 @@
+.register{
+    border-radius: 8px;
+    background: #f0f0f0;
+    box-shadow: 0 0 5px #acacac;
+    padding:25px 25px 25px 25px;
+    margin: 90px 0;
+}
+span.phead {
+    font-weight: bold;
+}

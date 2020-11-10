@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="col-md-12">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8">
+      <div class="register">
+        <h4 style="display: inline-block;border-bottom: 3px solid;">User Details</h4>
+        <button class="btn btn-sm btn-default" style="float: right;" routerLink="/login">Logout</button>
+        <div class="col-md-12" style="    margin-bottom: 11px;
+      padding: 0;">
+          <img [src]="profile" style="    height: 100px;
+              width: 100px;    border-radius: 50%;
+    border: 3px solid #cbcbcb;">
+        </div>
+        <p><span class="phead">First Name </span> <span>:&nbsp;{{UserDetails.fname}}</span></p>
+        <p><span class="phead">Last Name </span> <span>:&nbsp;{{UserDetails.lname}}</span></p>
+        <p><span class="phead">Email ID </span> <span>:&nbsp;{{UserDetails.emailid}}</span></p>
+        <p><span class="phead">Mobile No </span> <span>:&nbsp;{{UserDetails.mobileno}}</span></p>
+        <p><span class="phead">Gender </span> <span>:&nbsp;{{UserDetails.gender}}</span></p>
+        <p><span class="phead">Address </span> <span>:&nbsp;{{UserDetails.address}}</span></p>
+
+      </div>
+      <div class="col-md-2">
+
+      </div>
+    </div>
+  </div>
